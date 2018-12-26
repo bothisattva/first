@@ -1,3 +1,5 @@
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Scanner;
 
 public class first {
@@ -32,16 +34,28 @@ public class first {
            int a = str.nextInt();
            System.out.println(a6(a));
            */
-          Scanner str = new Scanner(System.in);
+          /*задача 7
+           Scanner str = new Scanner(System.in);
           System.out.println("Введите своё имя");
           String a = str.next();
           a7(a);
-    }
+          */
 
+          year();
+    }
+            public static void year (){
+                int year = Calendar.getInstance().get(Calendar.YEAR);
+                if ((year % 4==0  && year % 100 !=0) ||year  % 400 ==0 )
+                    System.out.println("Год высокостный  ");
+                else
+                    System.out.println("Год не высокосный ");
+            }
+            /* задача 7
             public static void a7(String a){
             System.out.println("Привет "+ a );
-
             }
+            */
+
             /*3задача 3
             public static int sum (int a, int b , int c, int d){
               int s ;
@@ -58,6 +72,7 @@ public class first {
                     return false;
                }
             */
+
            /*задача 5
            public static void a5 (int a ){
                 if (a >=0)
