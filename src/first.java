@@ -16,6 +16,7 @@ public class first {
         char d = 'a';
         */
 
+
             /* задача 3
             System.out.println(sum(2,3,4,4));
             */
@@ -40,15 +41,17 @@ public class first {
           String a = str.next();
           a7(a);
           */
-
+            //задача 8
           year();
     }
+            //задача №8
             public static void year (){
                 int year = Calendar.getInstance().get(Calendar.YEAR);
                 if ((year % 4==0  && year % 100 !=0) ||year  % 400 ==0 )
                     System.out.println("Год высокостный  ");
                 else
                     System.out.println("Год не высокосный ");
+
             }
             /* задача 7
             public static void a7(String a){
