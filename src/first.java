@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class first {
     //задача 1
     public static void main(String[] args) {
@@ -15,9 +17,13 @@ public class first {
             /* задача 3
             System.out.println(sum(2,3,4,4));
             */
-
+            /* задача 4
             System.out.println(condition(10,20));
-
+            */
+            Scanner str = new Scanner(System.in);
+            System.out.println("Введите челое число ");
+            int a = str.nextInt();
+            a5(a);
     }
             /*3задача 3
             public static int sum (int a, int b , int c, int d){
@@ -27,12 +33,19 @@ public class first {
              }
              */
 
-           public static boolean condition(int a, int c){
+            /* задача 4
+             public static boolean condition(int a, int c){
                 if (a+c>=10 && a+c<=20)
                     return true;
                 else
                     return false;
-                }
-
+               }
+            */
+            public static void a5 (int a ){
+                if (a >=0)
+                    System.out.println(" Число " + a + " положительное");
+                else if (a<0)
+                    System.out.println(" Число " + a + " отрицательное");
+            }
 
 }
