@@ -26,14 +26,22 @@ public class first {
             int a = str.nextInt();
             a5(a);
            */
+          /* задача 6
            Scanner str = new Scanner(System.in);
            System.out.println("Введите целое число");
            int a = str.nextInt();
            System.out.println(a6(a));
-
-
-
+           */
+          Scanner str = new Scanner(System.in);
+          System.out.println("Введите своё имя");
+          String a = str.next();
+          a7(a);
     }
+
+            public static void a7(String a){
+            System.out.println("Привет "+ a );
+
+            }
             /*3задача 3
             public static int sum (int a, int b , int c, int d){
               int s ;
@@ -58,11 +66,13 @@ public class first {
                     System.out.println(" Число " + a + " отрицательное");
             }
             */
+           /* задача 6
            public static boolean a6(int a){
                if (a>=0)
                    return true;
                else
                    return false;
            }
+           */
 
 }
