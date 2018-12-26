@@ -20,10 +20,19 @@ public class first {
             /* задача 4
             System.out.println(condition(10,20));
             */
+           /* задача 5
             Scanner str = new Scanner(System.in);
             System.out.println("Введите челое число ");
             int a = str.nextInt();
             a5(a);
+           */
+           Scanner str = new Scanner(System.in);
+           System.out.println("Введите целое число");
+           int a = str.nextInt();
+           System.out.println(a6(a));
+
+
+
     }
             /*3задача 3
             public static int sum (int a, int b , int c, int d){
@@ -41,11 +50,19 @@ public class first {
                     return false;
                }
             */
-            public static void a5 (int a ){
+           /*задача 5
+           public static void a5 (int a ){
                 if (a >=0)
                     System.out.println(" Число " + a + " положительное");
                 else if (a<0)
                     System.out.println(" Число " + a + " отрицательное");
             }
+            */
+           public static boolean a6(int a){
+               if (a>=0)
+                   return true;
+               else
+                   return false;
+           }
 
 }
