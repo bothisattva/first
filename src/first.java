@@ -15,13 +15,24 @@ public class first {
             /* задача 3
             System.out.println(sum(2,3,4,4));
             */
+
+            System.out.println(condition(10,20));
+
     }
             /*3задача 3
             public static int sum (int a, int b , int c, int d){
               int s ;
-                s = a*(b+(c/d));
-             return s;
-
+              s = a*(b+(c/d));
+              return s;
              }
              */
+
+           public static boolean condition(int a, int c){
+                if (a+c>=10 && a+c<=20)
+                    return true;
+                else
+                    return false;
+                }
+
+
 }
